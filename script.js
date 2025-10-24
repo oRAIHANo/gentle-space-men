@@ -1,11 +1,11 @@
-  // JS for Hamburger toggle
-  const hamburger = document.getElementById("hamburger");
-  const navLinks = document.getElementById("nav-links");
+// JS for Hamburger toggle
+const hamburger = document.getElementById("hamburger");
+const navLinks = document.getElementById("nav-links");
 
-  hamburger.addEventListener("click", () => {
-    hamburger.classList.toggle("active");
-    navLinks.classList.toggle("active");
-  });
+hamburger.addEventListener("click", () => {
+  hamburger.classList.toggle("active");
+  navLinks.classList.toggle("active");
+});
 
 document.addEventListener('DOMContentLoaded', function () {
   // Smooth scrolling for anchor links
@@ -152,4 +152,5 @@ document.addEventListener('DOMContentLoaded', function () {
       }
     });
   });
+
 });
